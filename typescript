@@ -1,0 +1,737 @@
+Script started on Thu 18 Apr 2019 06:36:41 PM PDT
+desherb@CF165-20:~$ cd csc[K241[K[K[Kci241
+desherb@CF165-20:~/csci241$ ls
+desherb@CF165-20:~/csci241$ git clone htts://github.com/CSCI241Spr[Kring2019/lab-2[K1-Javasofunyay
+Cloning into 'lab-1-Javasofunyay'...
+fatal: Unable to find remote helper for 'htts'
+desherb@CF165-20:~/csci241$ git clone htts://github.com/CSCI241Spring2019/lab-1-Javasofunyayps://github.com/CSCI241Spring2019/lab-1-Javasofunyay[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Cloning into 'lab-1-Javasofunyay'...
+remote: Enumerating objects: 21, done.[K
+remote: Counting objects:   4% (1/21)   [Kremote: Counting objects:   9% (2/21)   [Kremote: Counting objects:  14% (3/21)   [Kremote: Counting objects:  19% (4/21)   [Kremote: Counting objects:  23% (5/21)   [Kremote: Counting objects:  28% (6/21)   [Kremote: Counting objects:  33% (7/21)   [Kremote: Counting objects:  38% (8/21)   [Kremote: Counting objects:  42% (9/21)   [Kremote: Counting objects:  47% (10/21)   [Kremote: Counting objects:  52% (11/21)   [Kremote: Counting objects:  57% (12/21)   [Kremote: Counting objects:  61% (13/21)   [Kremote: Counting objects:  66% (14/21)   [Kremote: Counting objects:  71% (15/21)   [Kremote: Counting objects:  76% (16/21)   [Kremote: Counting objects:  80% (17/21)   [Kremote: Counting objects:  85% (18/21)   [Kremote: Counting objects:  90% (19/21)   [Kremote: Counting objects:  95% (20/21)   [Kremote: Counting objects: 100% (21/21)   [Kremote: Counting objects: 100% (21/21), done.[K
+remote: Compressing objects:   7% (1/13)   [Kremote: Compressing objects:  15% (2/13)   [Kremote: Compressing objects:  23% (3/13)   [Kremote: Compressing objects:  30% (4/13)   [Kremote: Compressing objects:  38% (5/13)   [Kremote: Compressing objects:  46% (6/13)   [Kremote: Compressing objects:  53% (7/13)   [Kremote: Compressing objects:  61% (8/13)   [Kremote: Compressing objects:  69% (9/13)   [Kremote: Compressing objects:  76% (10/13)   [Kremote: Compressing objects:  84% (11/13)   [Kremote: Compressing objects:  92% (12/13)   [Kremote: Compressing objects: 100% (13/13)   [Kremote: Compressing objects: 100% (13/13), done.[K
+remote: Total 21 (delta 4), reused 9 (delta 0), pack-reused 0[K
+Unpacking objects:   4% (1/21)   Unpacking objects:   9% (2/21)   Unpacking objects:  14% (3/21)   Unpacking objects:  19% (4/21)   Unpacking objects:  23% (5/21)   Unpacking objects:  28% (6/21)   Unpacking objects:  33% (7/21)   Unpacking objects:  38% (8/21)   Unpacking objects:  42% (9/21)   Unpacking objects:  47% (10/21)   Unpacking objects:  52% (11/21)   Unpacking objects:  57% (12/21)   Unpacking objects:  61% (13/21)   Unpacking objects:  66% (14/21)   Unpacking objects:  71% (15/21)   Unpacking objects:  76% (16/21)   Unpacking objects:  80% (17/21)   Unpacking objects:  85% (18/21)   Unpacking objects:  90% (19/21)   Unpacking objects:  95% (20/21)   Unpacking objects: 100% (21/21)   Unpacking objects: 100% (21/21), done.
+Checking connectivity... done.
+desherb@CF165-20:~/csci241$ ls
+lab-1-Javasofunyay
+desherb@CF165-20:~/csci241$ git config -- glo[K[K[K[K[Kg[K-glober user.name "Bailey Deh[Kshe[K[K[KSher;a[K[Kil[K[Klia"
+error: unknown option `glober'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+
+desherb@CF165-20:~/csci241$ git config --glober user.name "Bailey DeSherlia"[C[1P[1P[C[1P[1@b[1@a[1@l
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+desherb@CF165-20:~/csci241$ git config --global user.name "Bailey DeSherlia"[1P[1P[1P[1P[1P[1P[1@r[1@e[1@p[1@l[1@a[1@c[1@e[1@-[1@a[1@l[1@l
+fatal: not in a git directory
+desherb@CF165-20:~/csci241$ cd Java-so[K[K[Kso[K[K[K[K[K[Klab1[K-1-Javasofunyay
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ cd lab-1-Javasofunyaygit config --replace-all user.name "Bailey DeSherlia"
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git config --replace-all user.name "Bailey DeSherlia"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcd lab-1-Javasofunyaygit config --replace-all user.name "Bailey DeSherlia"[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@g[1@l[1@o[1@b[1@a[1@b[1P[1@l[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@e[1@m[1@a[1@i[1@l[1P[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuser[K[K[K[Kdesherb@wwu.edu
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ ls
+build.gradle  src
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ touch wrt[Kiteuo[Kp/[K.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git add writeup.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git commit-[K -m "Added empty writeup"
+[master 8ceaf26] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': Javasofunyay
+Password for 'https://Javasofunyay@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-Javasofunyay/'
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push r[Korigin master
+Username for 'https://github.com': De  Javasofunay  yay
+Password for 'https://Javasofunyay@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 322 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-Javasofunyay
+   c6ac69d..8ceaf26  master -> master
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ cd writeup.txt
+bash: cd: writeup.txt: Not a directory
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ vim writeup,txt[K[K[K[K.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;69r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[69;1H"writeup.txt" 0L, 0C[>c[2;1H[94m~                                                                                                                                                                                                           [3;1H~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [23;1H~                                                                                                                                                                                                           [24;1H~                                                                                                                                                                                                           [25;1H~                                                                                                                                                                                                           [26;1H~                                                                                                                                                                                                           [27;1H~                                                                                                                                                                                                           [28;1H~                                                                                                                                                                                                           [29;1H~                                                                                                                                                                                                           [30;1H~                                                                                                                                                                                                           [31;1H~                                                                                                                                                                                                           [32;1H~                                                                                                                                                                                                           [33;1H~                                                                                                                                                                                                           [34;1H~                                                                                                                                                                                                           [35;1H~                                                                                                                                                                                                           [36;1H~                                                                                                                                                                                                           [37;1H~                                                                                                                                                                                                           [38;1H~                                                                                                                                                                                                           [39;1H~                                                                                                                                                                                                           [40;1H~                                                                                                                                                                                                           [41;1H~                                                                                                                                                                                                           [42;1H~                                                                                                                                                                                                           [43;1H~                                                                                                                                                                                                           [44;1H~                                                                                                                                                                                                           [45;1H~                                                                                                                                                                                                           [46;1H~                                                                                                                                                                                                           [47;1H~                                                                                                                                                                                                           [48;1H~                                                                                                                                                                                                           [49;1H~                                                                                                                                                                                                           [50;1H~                                                                                                                                                                                                           [51;1H~                                                                                                                                                                                                           [52;1H~                                                                                                                                                                                                           [53;1H~                                                                                                                                                                                                           [54;1H~                                                                                                                                                                                                           [55;1H~                                                                                                                                                                                                           [56;1H~                                                                                                                                                                                                           [57;1H~                                                                                                                                                                                                           [58;1H~                                                                                                                                                                                                           [59;1H~                                                                                                                                                                                                           [60;1H~                                                                                                                                                                                                           [61;1H~                                                                                                                                                                                                           [62;1H~                                                                                                                                                                                                           [63;1H~                                                                                                                                                                                                           [64;1H~                                                                                                                                                                                                           [65;1H~                                                                                                                                                                                                           [66;1H~                                                                                                                                                                                                           [67;1H~                                                                                                                                                                                                           [68;1H~                                                                                                                                                                                                           [m[69;187H0,0-1[9CAll]2;writeup.txt (~/csci241/lab-1-Javasofunyay) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                                                                                                                                                           [3;1H~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [23;1H~                                                                                                                                                                                                           [24;1H~                                                                                                                                                                                                           [25;1H~                                                                                                                                                                                                           [26;1H~                                                                                                                                                                                                           [27;1H~                                                                                                                                                                                                           [28;1H~                                                                                                                                                                                                           [29;1H~                                                                                                                                                                                                           [30;1H~                                                                                                                                                                                                           [31;1H~                                                                                                                                                                                                           [32;1H~                                                                                                                                                                                                           [33;1H~                                                                                                                                                                                                           [34;1H~                                                                                                                                                                                                           [35;1H~                                                                                                                                                                                                           [36;1H~                                                                                                                                                                                                           [37;1H~                                                                                                                                                                                                           [38;1H~                                                                                                                                                                                                           [39;1H~                                                                                                                                                                                                           [40;1H~                                                                                                                                                                                                           [41;1H~                                                                                                                                                                                                           [42;1H~                                                                                                                                                                                                           [43;1H~                                                                                                                                                                                                           [44;1H~                                                                                                                                                                                                           [45;1H~                                                                                                                                                                                                           [46;1H~                                                                                                                                                                                                           [47;1H~                                                                                                                                                                                                           [48;1H~                                                                                                                                                                                                           [49;1H~                                                                                                                                                                                                           [50;1H~                                                                                                                                                                                                           [51;1H~                                                                                                                                                                                                           [52;1H~                                                                                                                                                                                                           [53;1H~                                                                                                                                                                                                           [54;1H~                                                                                                                                                                                                           [55;1H~                                                                                                                                                                                                           [56;1H~                                                                                                                                                                                                           [57;1H~                                                                                                                                                                                                           [58;1H~                                                                                                                                                                                                           [59;1H~                                                                                                                                                                                                           [60;1H~                                                                                                                                                                                                           [61;1H~                                                                                                                                                                                                           [62;1H~                                                                                                                                                                                                           [63;1H~                                                                                                                                                                                                           [64;1H~                                                                                                                                                                                                           [65;1H~                                                                                                                                                                                                           [66;1H~                                                                                                                                                                                                           [67;1H~                                                                                                                                                                                                           [68;1H~                                                                                                                                                                                                           [m[69;187H0,0-1[9CAll"writeup.txt" 0L, 0C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[69;1HEntering Ex mode.  Type "visual" to go to Normal mode.[69;187H[K[?12l[?25h[69;1H
+:q[69;2H[K[69;2Hvisual
+[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                                                                                                                                                           [3;1H~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [23;1H~                                                                                                                                                                                                           [24;1H~                                                                                                                                                                                                           [25;1H~                                                                                                                                                                                                           [26;1H~                                                                                                                                                                                                           [27;1H~                                                                                                                                                                                                           [28;1H~                                                                                                                                                                                                           [29;1H~                                                                                                                                                                                                           [30;1H~                                                                                                                                                                                                           [31;1H~                                                                                                                                                                                                           [32;1H~                                                                                                                                                                                                           [33;1H~                                                                                                                                                                                                           [34;1H~                                                                                                                                                                                                           [35;1H~                                                                                                                                                                                                           [36;1H~                                                                                                                                                                                                           [37;1H~                                                                                                                                                                                                           [38;1H~                                                                                                                                                                                                           [39;1H~                                                                                                                                                                                                           [40;1H~                                                                                                                                                                                                           [41;1H~                                                                                                                                                                                                           [42;1H~                                                                                                                                                                                                           [43;1H~                                                                                                                                                                                                           [44;1H~                                                                                                                                                                                                           [45;1H~                                                                                                                                                                                                           [46;1H~                                                                                                                                                                                                           [47;1H~                                                                                                                                                                                                           [48;1H~                                                                                                                                                                                                           [49;1H~                                                                                                                                                                                                           [50;1H~                                                                                                                                                                                                           [51;1H~                                                                                                                                                                                                           [52;1H~                                                                                                                                                                                                           [53;1H~                                                                                                                                                                                                           [54;1H~                                                                                                                                                                                                           [55;1H~                                                                                                                                                                                                           [56;1H~                                                                                                                                                                                                           [57;1H~                                                                                                                                                                                                           [58;1H~                                                                                                                                                                                                           [59;1H~                                                                                                                                                                                                           [60;1H~                                                                                                                                                                                                           [61;1H~                                                                                                                                                                                                           [62;1H~                                                                                                                                                                                                           [63;1H~                                                                                                                                                                                                           [64;1H~                                                                                                                                                                                                           [65;1H~                                                                                                                                                                                                           [66;1H~                                                                                                                                                                                                           [67;1H~                                                                                                                                                                                                           [68;1H~                                                                                                                                                                                                           [m[69;187H0,0-1[9CAll[1;1H[?12l[?25h[?25l[69;1HEntering Ex mode.  Type "visual" to go to Normal mode.[69;187H[K[?12l[?25h[69;1H
+:q!
+]2;Terminal]1;Terminal[?1l>[?1049ldesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git add writeup.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git o[Kcommit -m "Added part 1 (names) ti wr[K[K[K[Ko rwi[K[K[Kwriteup.[K"
+[master ee0a4bf] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push origin master
+Username for 'https://github.com': Javasofunyay
+Password for 'https://Javasofunyay@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 289 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-Javasofunyay
+   8ceaf26..ee0a4bf  master -> master
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git [K[K[K[Kgit status[Ks
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ i[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git add writeup.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git ommi[K[K[K[Kcommit -m[3Pstatusadd writeup.txt[9Pstatuspush origin mastercommit -m "Added part 1 (names) to writeup"[28Padd writeup.txtcommit -m "Added part 1 (names) to writeup"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpart 2 (hobby) to writeup"
+[master 274f521] Added part 2 (hobby) to writeup
+ 1 file changed, 1 insertion(+)
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': d Javao sofunyay
+Password for 'https://Javasofunyay@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 314 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+git status
+To https://github.com/CSCI241Spring2019/lab-1-Javasofunyay
+   ee0a4bf..274f521  master -> master
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ touch Javasofunyay.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git add Javasofunyay.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add Javasofunyay.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git commit -m "Added [K[K[K[K[K[KAdded Nich[K[K[K[Kname, wwu user, hi[K[Kgithub usre[K[Ker.[K"
+[master 0a5e9bf] Added name, wwu user, github user
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Javasofunyay.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': Javasofunyay
+Password for 'https://Javasofunyay@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 403 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+git status
+To https://github.com/CSCI241Spring2019/lab-1-Javasofunyay
+   274f521..0a5e9bf  master -> master
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ exit
+exit
+
+Script done on Thu 18 Apr 2019 06:54:37 PM PDT
+Script started on Thu 18 Apr 2019 07:04:23 PM PDT
+desherb@CF165-20:~$ cd csci241
+desherb@CF165-20:~/csci241$ cd lab-1-Javasofunay[K[Kyay
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ ls
+build.gradle  Javasofunyay.txt	src  writeup.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git checkout -b question2[K3
+Switched to a new branch 'question3'
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git add writeup,t[K[K.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git commit -m "Added part 3 (son[K[K[Kmusic) to wrt[Kiteup:[K"
+[question3 1a34d81] Added part 3 (music) to writeup
+ 1 file changed, 1 insertion(+)
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git s[Kcheckout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git merge question3
+Updating 0a5e9bf..1a34d81
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push [K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': Javaos  sofunyay
+Password for 'https://Javasofunyay@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 357 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+git stats usTo https://github.com/CSCI241Spring2019/lab-1-Javasofunyay
+   0a5e9bf..1a34d81  master -> master
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git branch -d question3
+Deleted branch question3 (was 1a34d81).
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/desherb/csci241/lab-1-Javasofunyay/build.gradle into local compilation cache > Compiling build file '/home/desherb/csci241/lab-1-Javasofunyay/build.gradle' to cross build[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/desherb/csci241/lab-1-Javasofunyay/build.gradle into local compilation cache > Compiling build file '/home/desherb/csci241/lab-1-Javasofunyay/build.gradle' to cross build[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/desherb/csci241/lab-1-Javasofunyay/build.gradle into local compilation cache > Compiling build file '/home/desherb/csci241/lab-1-Javasofunyay/build.gradle' to cross build[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [2s][m[35D[1B> IDLE[0K[6D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 4s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:6: error: not a statement
+        for (args){
+             ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:6: error: ';' expected
+        for (args){
+                 ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:6: error: ';' expected
+        for (args){
+                  ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:7: error: ')' expected
+                System.out.print(args);
+                                      ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:9: error: <identifier> expected
+        System.out.println("!");
+                          ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:9: error: illegal start of type
+        System.out.println("!");
+                           ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:11: error: class, interface, or enum expected
+}
+^
+7 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:6: error: not a statement
+        for (args) {
+             ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:6: error: ';' expected
+        for (args) {
+                 ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:6: error: ';' expected
+        for (args) {
+                  ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:7: error: ')' expected
+                System.out.print(args);
+                                      ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:9: error: <identifier> expected
+        System.out.println("!");
+                          ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:9: error: illegal start of type
+        System.out.println("!");
+                           ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:11: error: class, interface, or enum expected
+}
+^
+7 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: illegal start of expression
+        System.out.println("Hello " + for(args) + "!");
+                                      ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello " + for(args) + "!");
+                                         ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: not a statement
+        System.out.println("Hello " + for(args) + "!");
+                                          ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello " + for(args) + "!");
+                                              ^
+4 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run [K --args"241"
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args241'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradle run --args"241"="241"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello [Ljava.lang.String;@4aa298b7!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gradl[K[K[K[K[Kgradle run --args="241"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: illegal start of expression
+        System.out.println("Hello " + for(args) + "!");
+                                      ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello " + for(args) + "!");
+                                         ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: not a statement
+        System.out.println("Hello " + for(args) + "!");
+                                          ^
+/home/desherb/csci241/lab-1-Javasofunyay/src/main/java/lab1/Hello.java:5: error: ';' expected
+        System.out.println("Hello " + for(args) + "!");
+                                              ^
+4 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git run grad[K[K[K[K[K[K[K[K[K[K[K[Kgradler[K run --args="241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mdesherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git add src/main/java/lab/[K1.[K/HE[Kello.java
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git commit -m "Hello now prints command line arg"
+[master a14996f] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': Javasofunyay
+Password for 'https://Javasofunyay@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 591 bytes | 0 bytes/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+git status
+To https://github.com/CSCI241Spring2019/lab-1-Javasofunyay
+   1a34d81..a14996f  master -> master
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gradle/[m
+	[31mbuild/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ exit[K[K[K[Kexit
+exit
+
+Script done on Thu 18 Apr 2019 08:01:49 PM PDT
+Script started on Thu 18 Apr 2019 08:03:13 PM PDT
+desherb@CF165-20:~$ cd 241[K[K[Kcsci241
+desherb@CF165-20:~/csci241$ cd lab-1-Javasofunyay
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git [K[K[K[Kgit [K[K[K[Kt[Ktouch dummy.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git checkout [K[K[K[K[K[K[K[K[K[K[K[K[Kgit reset dummy.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git rm dummy.txt
+fatal: pathspec 'dummy.txt' did not match any files
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git[K[K[Kls
+build  build.gradle  dummy.txt	Javasofunyay.txt  src  writeup.txt
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ gi [Kt mv dummy.tt[Kxt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git mv dummy.txt[K[K[K[K[K[K[K[K[K-k dummy.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git mv dummy.tst[K[Kxt csci241
+fatal: not under version control, source=dummy.txt, destination=csci241
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git log
+[?1h=[33mcommit a14996f63624897cdaa4adfbc63624bf36ed97d1[m[m
+Author: Bailey DeSherlia <desherb@wwu.edu>[m
+Date:   Thu Apr 18 20:01:04 2019 -0700[m
+[m
+    Hello now prints command line arg[m
+[m
+[33mcommit 1a34d81e39e738a60bdaaa666c2e106de3c13ad3[m[m
+Author: Bailey DeSherlia <desherb@wwu.edu>[m
+Date:   Thu Apr 18 19:12:04 2019 -0700[m
+[m
+    Added part 3 (music) to writeup[m
+[m
+[33mcommit 0a5e9bf92f6704b1d408792c71478f8d1a61aa81[m[m
+Author: Bailey DeSherlia <desherb@wwu.edu>[m
+Date:   Thu Apr 18 18:52:14 2019 -0700[m
+[m
+    Added name, wwu user, github user[m
+[m
+[33mcommit 274f521d5c6b20e3cfcb0cf7319df948f83f02fa[m[m
+Author: Bailey DeSherlia <desherb@wwu.edu>[m
+Date:   Thu Apr 18 18:50:28 2019 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit ee0a4bfd1968e787c283046677aaa18571720991[m[m
+Author: Bailey DeSherlia <desherb@wwu.edu>[m
+Date:   Thu Apr 18 18:46:52 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 8ceaf2658a4a75e5a1bfffafe635aeb6241257b8[m[m
+Author: Bailey DeSherlia <desherb@wwu.edu>[m
+Date:   Thu Apr 18 18:39:57 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit c6ac69d972ecbb4034b90c9250afbedc0a08d11b[m[m
+Author: Javasofunyay <38745354+Javasofunyay@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:59:03 2019 -0700[m
+[m
+    Delete writeup.txt[m
+[m
+[33mcommit 11eb1d61dd7c3ae88d764ab63b42484561bfeccc[m[m
+Author: Javasofunyay <38745354+Javasofunyay@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:47:29 2019 -0700[m
+[m
+    Update writeup.txt[m
+[m
+[33mcommit ad6c0fbd8ee94c161801c96a1ab6c3c4088bffe1[m[m
+Author: Javasofunyay <38745354+Javasofunyay@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:24:55 2019 -0700[m
+[m
+    Update writeup.txt[m
+[m
+[33mcommit da1da620a550f23b10b49b035705200401a96b5b[m[m
+Author: Javasofunyay <38745354+Javasofunyay@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:22:42 2019 -0700[m
+[m
+    Update writeup.txt[m
+[m
+[33mcommit 4f3cc75652835a47039449ab0ee732224403b642[m[m
+Author: Bailey <desherb@wwu.edu>[m
+Date:   Thu Apr 11 12:19:37 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+:[K[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[69;1H[K[K:[K[K:[K[K[?1l>desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git diff
+[?1h=[K[?1l>desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ git diff writeup,t[K[K.txt
+[?1h=[K[?1l>desherb@CF165-20:~/csci241/lab-1-Javasofunyay$ exit
+exit
+
+Script done on Thu 18 Apr 2019 08:05:46 PM PDT
